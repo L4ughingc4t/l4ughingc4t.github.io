@@ -15,7 +15,7 @@
     }
     .terminal {
       position: absolute;
-      background: rgba(0,0,0,0.9);
+      background: rgba(0, 0, 0, 0.3); /* frosted glass: 半透明背景 */
       border: 1px solid #0F0;
       padding: 2vh 2vw;
       border-radius: 10px;
@@ -28,6 +28,8 @@
       height: 55vh;
       z-index: 2;
       overflow: auto;
+      backdrop-filter: blur(6px);         /* frosted glass: 背景ぼかし */
+      -webkit-backdrop-filter: blur(6px); /* Safari対応 */
     }
     .cursor {
       display: inline-block;
