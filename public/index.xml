@@ -6,6 +6,14 @@
     <description>Recent content on l4ughingc4t | Security Research</description>
     <generator>Hugo</generator>
     <language>ja</language>
+    <lastBuildDate>Mon, 30 Mar 2026 11:23:16 -0400</lastBuildDate>
     <atom:link href="https://l4ughingc4t.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://l4ughingc4t.github.io/blog/test/</link>
+      <pubDate>Mon, 30 Mar 2026 11:23:16 -0400</pubDate>
+      <guid>https://l4ughingc4t.github.io/blog/test/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
