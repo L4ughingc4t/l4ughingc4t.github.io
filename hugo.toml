@@ -1,0 +1,7 @@
+baseURL = "https://l4ughingc4t.github.io/"
+languageCode = "ja"
+title = "l4ughingc4t | Security Research"
+theme = "PaperMod"
+
+[permalinks]
+posts = "/blog/:slug/"
