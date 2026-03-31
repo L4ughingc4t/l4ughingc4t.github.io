@@ -124,4 +124,4 @@ type "C:\Documents and Settings\Administrator\Desktop\root.txt"
 
 ---
 
-> **Disclaimer:** This writeup documents actions performed on a retired HackTheBox machine in a controlled, authorized environment. Unauthorized access to computer systems is illegal.
+
