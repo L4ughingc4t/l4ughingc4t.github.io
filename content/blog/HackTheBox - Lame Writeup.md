@@ -162,5 +162,3 @@ cat /root/root.txt
 - Replace vsftpd 2.3.4 with a patched version to eliminate the co-located backdoor risk
 
 ---
-
-> **Disclaimer:** This writeup documents actions performed on a retired HackTheBox machine in a controlled, authorized environment. Unauthorized access to computer systems is illegal.
