@@ -20,12 +20,6 @@ draft = false
 
 ---
 
-## Overview
-
-**Legacy** is one of the classic HackTheBox machines running Windows XP. It demonstrates the exploitation of **MS08-067**, a critical unauthenticated remote code execution vulnerability in the Windows Server service (NetAPI). This flaw predates EternalBlue but remains an essential topic when dealing with legacy Windows environments.
-
----
-
 ## Reconnaissance
 
 ### Nmap Scan
