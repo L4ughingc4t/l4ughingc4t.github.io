@@ -1,8 +1,12 @@
-+++ title = "HackTheBox - Busqueda Writeup" date = "2026-04-15"
-description =
-"SearchorのRCEから侵入し、Git情報漏洩とDocker経由で権限昇格するマシン"
-tags = \["HackTheBox", "CTF", "Linux", "RCE", "Searchor", "Easy"\]
-categories = \["HackTheBox"\] toc = true draft = false +++
++++
+title = "HackTheBox - Busqueda Writeup"
+date = "2026-04-15"
+description = "SearchorのRCEから侵入し、Git情報漏洩とDocker経由で権限昇格するマシン"
+tags = ["HackTheBox", "CTF", "Linux", "RCE", "Searchor", "Easy"]
+categories = ["HackTheBox"]
+toc = true
+draft = false
++++
 
 ## Machine Info
 
