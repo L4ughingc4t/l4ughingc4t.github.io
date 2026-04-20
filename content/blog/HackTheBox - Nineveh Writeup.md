@@ -59,16 +59,19 @@ department  (Status: 301) --> http://10.129.21.145/department/
 ### HTTPS (Port 443)
 
 ```bash
-gobuster dir -u https://nineveh.htb/ -w /usr/share/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-small.txt -k
+gobuster dir -u https://nineveh.htb/ \
+  -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -k
 ```
 
 ```text
-db  (Status: 301) --> https://nineveh.htb/db/
+db            (Status: 301) --> https://nineveh.htb/db/
+secure_notes  (Status: 301) --> https://nineveh.htb/secure_notes/
 ```
 
 発見したエンドポイント:
 - `http://nineveh.htb/department/login.php` — ログインフォーム (SQLi 不可)
 - `https://nineveh.htb/db/` — phpLiteAdmin v1.9
+- `https://nineveh.htb/secure_notes/` — nineveh.png が1枚だけ存在
 
 ---
 
